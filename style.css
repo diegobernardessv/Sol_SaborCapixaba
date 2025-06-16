@@ -1,0 +1,110 @@
+body {
+    background-image: url(./images/mike-kenneally-TD4DBagg2wE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-color:black;
+    background-size: cover;       
+    background-position: center; 
+    font-family: Rubik;
+    padding: 0;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    display: block;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 900px;
+    background-color:rgb(225, 187, 187);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 30px 5px 30px;
+    height: 56em;
+    border: solid 3px black;
+  }
+  
+  img {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: -10px;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: rgb(164, 6, 6);
+    border-color:  black;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Comic Sans MS
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    font-weight: 450;
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    font-weight: 450;
+    text-align: right;
+    width: 25%;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
