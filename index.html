@@ -9,71 +9,53 @@
   <body>
     <div class="menu">
       <main>
-        <h1>
-          <img src="./images/9536034_sun_summer_sunny_warm_weather_icon.png" alt="ícone de sol" />
-          Sol & Sabor Capixaba
-        </h1>
-        <p class="established">Desde 2024</p>
+        <div class="header-container">
+          <h1>
+            <img src="./images/9536034_sun_summer_sunny_warm_weather_icon.png" alt="ícone de sol" />
+            Sol & Sabor Capixaba
+          </h1>
+          <div class="theme-switcher">
+            <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+            <label for="theme-toggle" class="theme-toggle-label"></label>
+          </div>
+        </div>
+        <p class="established"><i>Delícias que aquecem a alma, com o toque capixaba.</i></p>
         <hr>
-        <section>
-          <h2>
-            <img src="./images/coffee-break.png" alt="ícone de café"/>
-            Cafés
-          </h2>
-          <article class="item">
-            <p class="flavor">Baunilha Francesa</p><p class="price">R$ 7.50</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Macchiato de Caramelo</p><p class="price">R$ 9.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Abóbora com Especiarias</p><p class="price">R$ 8.50</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Avelã</p><p class="price">R$ 9.50</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Mocha</p><p class="price">R$ 10.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Café com Leite</p><p class="price">R$ 6.00</p>
-          </article>
-          <article class="item">
-            <p class="flavor">Expresso Duplo</p><p class="price">R$ 7.00</p>
-          </article>
-        </section>
-        <section>
-          <h2>
-            <img src="./images/torta.png" alt="ícone de torta"/>
-            Tortas
-          </h2>
-          <article class="item">
-            <p class="dessert">Donut</p><p class="price">R$ 5.50</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Cheesecake</p><p class="price">R$ 14.50</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Torta de Limão</p><p class="price">R$ 11.00</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Torta Holandesa</p><p class="price">R$ 15.00</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Rolinho de Canela</p><p class="price">R$ 8.00</p>
-          </article>
-          <article class="item">
-            <p class="dessert">Torta Alemã</p><p class="price">R$ 15.50</p>
-          </article>
-        </section>
+        <div class="controls-container">
+          <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="cafes">Cafés</button>
+            <button class="filter-btn" data-filter="tortas">Tortas</button>
+          </div>
+          <div class="search-container">
+            <input type="search" id="search-box" placeholder="Buscar no cardápio...">
+          </div>
+        </div>
+        <div id="menu-items-container">
+          <!-- Menu items will be dynamically inserted here by script.js -->
+        </div>
+
+        <div id="cart" class="cart-hidden">
+          <h2>Meu Pedido</h2>
+          <div id="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+            <p class="cart-empty-msg">Seu carrinho está vazio.</p>
+          </div>
+          <div id="cart-total">
+            <p>Total: <span id="total-price">R$ 0,00</span></p>
+          </div>
+          <button id="checkout-btn">Finalizar Pedido</button>
+        </div>
+        
       </main>
       <hr class="bottom-line">
       <footer>
-        <p>
-          <a href="https://www.freecodecamp.org" target="_blank">Visite nosso site</a>
-        </p>
         <p class="address">Rua Joaquim da Silva Lima, n° 167, Centro - Guarapari/ES</p>
+        <p class="signature">
+          <a href="https://www.linkedin.com/in/diegobernardessv" target="_blank">© 2025 - DB Solutions.<small> Todos os direitos reservados.</small></a>
+        </p>
       </footer>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

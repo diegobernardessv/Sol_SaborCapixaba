@@ -1,0 +1,140 @@
+{
+  "items": [
+    {
+      "id": "cafe-01",
+      "name": "Baunilha Francesa",
+      "description": "Café suave com um toque adocicado de xarope de baunilha.",
+      "price": 7.50,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-02",
+      "name": "Macchiato de Caramelo",
+      "description": "Expresso, leite vaporizado e uma generosa calda de caramelo.",
+      "price": 9.00,
+      "category": "cafes",
+      "promotion": true
+    },
+    {
+      "id": "cafe-03",
+      "name": "Abóbora com Especiarias",
+      "description": "Sabor sazonal com purê de abóbora, canela, noz-moscada e cravo.",
+      "price": 8.50,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-04",
+      "name": "Avelã",
+      "description": "Café cremoso com o rico e inconfundível sabor de avelã.",
+      "price": 9.50,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-05",
+      "name": "Mocha",
+      "description": "A combinação perfeita de chocolate, expresso e leite vaporizado.",
+      "price": 10.00,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-06",
+      "name": "Café com Leite",
+      "description": "O clássico brasileiro, simples e reconfortante.",
+      "price": 6.00,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-07",
+      "name": "Expresso Duplo",
+      "description": "Dois shots de expresso puro para um dia com mais energia.",
+      "price": 7.00,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-08",
+      "name": "Cappuccino",
+      "description": "Expresso, leite vaporizado e uma coroa de espuma de leite.",
+      "price": 8.00,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "cafe-09",
+      "name": "Café Americano",
+      "description": "Expresso diluído em água quente, suave e encorpado.",
+      "price": 5.00,
+      "category": "cafes",
+      "promotion": false
+    },
+    {
+      "id": "torta-01",
+      "name": "Donut",
+      "description": "Rosquinha frita clássica com cobertura de açúcar.",
+      "price": 5.50,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-02",
+      "name": "Cheesecake",
+      "description": "Cremoso e aveludado, com uma calda de frutas vermelhas.",
+      "price": 14.50,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-03",
+      "name": "Torta de Limão",
+      "description": "Massa crocante com recheio de limão e cobertura de merengue.",
+      "price": 11.00,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-04",
+      "name": "Torta Holandesa",
+      "description": "Base de biscoito, creme holandês e cobertura de chocolate.",
+      "price": 15.00,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-05",
+      "name": "Rolinho de Canela",
+      "description": "Massa fofinha enrolada com canela e coberta com glacê.",
+      "price": 8.00,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-06",
+      "name": "Torta Alemã",
+      "description": "Camadas de biscoito e creme, finalizada com chocolate.",
+      "price": 15.50,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-07",
+      "name": "Brownie com Sorvete",
+      "description": "Brownie quente de chocolate com uma bola de sorvete de creme.",
+      "price": 18.00,
+      "category": "tortas",
+      "promotion": false
+    },
+    {
+      "id": "torta-08",
+      "name": "Torta de Morango",
+      "description": "Massa fresca com creme de confeiteiro e morangos frescos.",
+      "price": 12.00,
+      "category": "tortas",
+      "promotion": false
+    }
+  ]
+} 
