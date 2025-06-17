@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const addToCart = (itemId) => {
-        const itemToAdd = allMenuItems.find(item => item.id === itemId);
+        const itemToAdd = allMenuItems.find(item => item.id === Number(itemId));
         if (itemToAdd) {
             cartItems.push(itemToAdd);
             renderCart();
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const removeFromCart = (itemId) => {
-        const itemIndex = cartItems.findIndex(item => item.id === itemId);
+        const itemIndex = cartItems.findIndex(item => item.id === Number(itemId));
         if (itemIndex > -1) {
             cartItems.splice(itemIndex, 1);
             renderCart();
@@ -86,8 +86,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const itemsHtml = items.map(item => {
             const promotionClass = item.promotion ? 'promotion' : '';
+            const imageUrl = item.image_url ? item.image_url : 'static/images/coffee-break.png'; // Imagem padrão
+            
             return `
                 <div class="item ${promotionClass}" data-category="${item.category}">
+                    <img src="${imageUrl}" alt="${item.name}" class="item-image">
                     <div class="item-info">
                         <p class="item-name">${item.name}</p>
                         <p class="item-description">${item.description}</p>
@@ -106,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Função para buscar os dados do menu e iniciar a aplicação
     const fetchMenuData = async () => {
         try {
-            const response = await fetch('menu.json');
+            const response = await fetch('/api/produtos');
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
